@@ -3,7 +3,7 @@
 #include <string.h> 
 #include <math.h> 
 
-#define n 3
+#define n 4
 
 void Gerador(double A[n][n], double b[n])
 {
