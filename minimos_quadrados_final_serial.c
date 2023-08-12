@@ -356,7 +356,7 @@ void residuo(double *resultado_Ax, double *b, double *vetor_residuo, int n)
 
 void main(int argc, char **argv)
 {
-	int  i, j, n=3, det=1; 
+	int  i, j, n=4, det=1; 
 	
 	double **A, **A_copia,**QTransposta, **Q, **R, **QR, **I; 
 	double *b, *x, *y, *resultado_Ax, *vetor_residuo; 
