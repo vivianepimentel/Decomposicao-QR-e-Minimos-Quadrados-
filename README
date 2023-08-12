@@ -1,0 +1,29 @@
+-----------APLICAÇÃO COMPUTACIONAL DA DECOMPOSIÇÃO QR NO PROBLEMA DE MÍNIMOS QUADRADOS VIA OPENMP-----------
+
+Resolução do Problema de Mínimos Quadrados através da Decomposição QR.
+
+
+
+
+--------------------------------------------DESCRIÇÃO DO PROJETO--------------------------------------------
+
+O projeto consiste em:
+
+- Gerar uma matriz de números aleatórios;
+- Verificar se os vetores são linearmente independentes;
+- Decompor a matriz de entrada como uma matriz QR;
+- Por fim, encontrar uma solução aproximada para o sistema linear inicial. 
+
+
+
+
+---------------------------------------COMO RODAR O PROGRAMA PARALELO---------------------------------------
+
+1) Descompactar a pasta;
+2) Crie o arquivo binário com o comando "make";
+3) Execute com "make run";
+4) Limpe os arquivos binários com o comando "make clean", caso queira rodar novamente. 
+
+Observação: Ao executar o programa sem utilizar o "make", é necessário fornecer o número de threads. Exemplo: ./a.out 8 
+
+
