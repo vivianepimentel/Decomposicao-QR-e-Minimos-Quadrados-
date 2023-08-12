@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h> 
 #include <time.h>
-#include <sys/resource.h>
+#include <sys/resource.h> 
 
 
 void Gerador(double **A, double *b, int n)
