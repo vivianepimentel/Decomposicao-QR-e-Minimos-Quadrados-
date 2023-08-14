@@ -475,7 +475,7 @@ void main(int argc, char **argv)
 	residuo(resultado_Ax, b, vetor_residuo, n); 
 	imprime_vetor(vetor_residuo, n); 
 	
-	//printf("\n\nverifica solução: \n\n");
+	//printf("\n\nverifica resultado: \n\n");
 	//VerificaResultado(A_copia, x, b, n);
 	    	
    	
